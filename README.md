@@ -20,7 +20,7 @@ It includes a trained demand model, a bounded pricing engine, a REST API, and an
 
 The dashboard provides product and store controls, reference demand and cost metrics, three strategy cards, interactive demand/profit curves, and a downloadable scenario table.
 
-> To add a screenshot to this README, save one as `docs/dashboard.png`, commit it, and add `![PriceWise dashboard](docs/dashboard.png)` here.
+![PriceWise dashboard](docs/dashboard.png)
 
 ## How it works
 
