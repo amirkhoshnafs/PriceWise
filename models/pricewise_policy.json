@@ -1,0 +1,1410 @@
+{
+  "model_name": "PriceWise Demand Engine",
+  "version": "0.1.0",
+  "training_last_week": 257,
+  "elasticities": {
+    "1600066610": -1.8638115863698503,
+    "3800000120": -2.211734302530225
+  },
+  "pricing_policy": {
+    "supported_promotion": "UNMARKED",
+    "max_abs_price_change_pct": 10.0,
+    "min_training_rows": 30,
+    "min_price_levels": 5,
+    "historical_price_quantiles": [
+      0.1,
+      0.9
+    ]
+  },
+  "product_store_support": [
+    {
+      "upc": "1600066610",
+      "store": 2,
+      "p10": 2.99,
+      "p90": 3.39,
+      "training_rows": 221,
+      "price_levels": 36
+    },
+    {
+      "upc": "1600066610",
+      "store": 5,
+      "p10": 2.9,
+      "p90": 3.44,
+      "training_rows": 235,
+      "price_levels": 31
+    },
+    {
+      "upc": "1600066610",
+      "store": 8,
+      "p10": 2.9,
+      "p90": 3.57,
+      "training_rows": 227,
+      "price_levels": 29
+    },
+    {
+      "upc": "1600066610",
+      "store": 9,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 229,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 12,
+      "p10": 3.02,
+      "p90": 3.56,
+      "training_rows": 227,
+      "price_levels": 32
+    },
+    {
+      "upc": "1600066610",
+      "store": 14,
+      "p10": 3.0000000000000004,
+      "p90": 3.39,
+      "training_rows": 223,
+      "price_levels": 26
+    },
+    {
+      "upc": "1600066610",
+      "store": 18,
+      "p10": 2.9,
+      "p90": 3.25,
+      "training_rows": 218,
+      "price_levels": 23
+    },
+    {
+      "upc": "1600066610",
+      "store": 21,
+      "p10": 2.8,
+      "p90": 3.59,
+      "training_rows": 232,
+      "price_levels": 32
+    },
+    {
+      "upc": "1600066610",
+      "store": 28,
+      "p10": 2.9,
+      "p90": 3.29,
+      "training_rows": 229,
+      "price_levels": 24
+    },
+    {
+      "upc": "1600066610",
+      "store": 32,
+      "p10": 3.04,
+      "p90": 3.56,
+      "training_rows": 222,
+      "price_levels": 27
+    },
+    {
+      "upc": "1600066610",
+      "store": 33,
+      "p10": 2.99,
+      "p90": 3.65,
+      "training_rows": 198,
+      "price_levels": 30
+    },
+    {
+      "upc": "1600066610",
+      "store": 40,
+      "p10": 2.65,
+      "p90": 3.25,
+      "training_rows": 219,
+      "price_levels": 29
+    },
+    {
+      "upc": "1600066610",
+      "store": 44,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 219,
+      "price_levels": 33
+    },
+    {
+      "upc": "1600066610",
+      "store": 45,
+      "p10": 2.9,
+      "p90": 3.29,
+      "training_rows": 243,
+      "price_levels": 23
+    },
+    {
+      "upc": "1600066610",
+      "store": 47,
+      "p10": 2.9,
+      "p90": 3.59,
+      "training_rows": 201,
+      "price_levels": 27
+    },
+    {
+      "upc": "1600066610",
+      "store": 48,
+      "p10": 2.9,
+      "p90": 3.59,
+      "training_rows": 221,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 49,
+      "p10": 2.9,
+      "p90": 3.79,
+      "training_rows": 217,
+      "price_levels": 31
+    },
+    {
+      "upc": "1600066610",
+      "store": 50,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 193,
+      "price_levels": 20
+    },
+    {
+      "upc": "1600066610",
+      "store": 51,
+      "p10": 2.9,
+      "p90": 3.29,
+      "training_rows": 194,
+      "price_levels": 21
+    },
+    {
+      "upc": "1600066610",
+      "store": 52,
+      "p10": 2.99,
+      "p90": 3.39,
+      "training_rows": 221,
+      "price_levels": 22
+    },
+    {
+      "upc": "1600066610",
+      "store": 53,
+      "p10": 2.99,
+      "p90": 3.55,
+      "training_rows": 231,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 54,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 240,
+      "price_levels": 31
+    },
+    {
+      "upc": "1600066610",
+      "store": 56,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 232,
+      "price_levels": 23
+    },
+    {
+      "upc": "1600066610",
+      "store": 59,
+      "p10": 2.8,
+      "p90": 3.39,
+      "training_rows": 230,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 62,
+      "p10": 2.99,
+      "p90": 3.56,
+      "training_rows": 238,
+      "price_levels": 29
+    },
+    {
+      "upc": "1600066610",
+      "store": 64,
+      "p10": 2.9,
+      "p90": 3.31,
+      "training_rows": 216,
+      "price_levels": 32
+    },
+    {
+      "upc": "1600066610",
+      "store": 67,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 213,
+      "price_levels": 24
+    },
+    {
+      "upc": "1600066610",
+      "store": 68,
+      "p10": 3.01,
+      "p90": 3.39,
+      "training_rows": 222,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 70,
+      "p10": 2.65,
+      "p90": 3.65,
+      "training_rows": 220,
+      "price_levels": 25
+    },
+    {
+      "upc": "1600066610",
+      "store": 71,
+      "p10": 2.9450000000000003,
+      "p90": 3.65,
+      "training_rows": 226,
+      "price_levels": 38
+    },
+    {
+      "upc": "1600066610",
+      "store": 72,
+      "p10": 2.99,
+      "p90": 3.39,
+      "training_rows": 233,
+      "price_levels": 25
+    },
+    {
+      "upc": "1600066610",
+      "store": 73,
+      "p10": 2.9,
+      "p90": 3.39,
+      "training_rows": 233,
+      "price_levels": 22
+    },
+    {
+      "upc": "1600066610",
+      "store": 74,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 223,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 75,
+      "p10": 2.99,
+      "p90": 3.56,
+      "training_rows": 231,
+      "price_levels": 36
+    },
+    {
+      "upc": "1600066610",
+      "store": 76,
+      "p10": 2.9,
+      "p90": 3.34,
+      "training_rows": 242,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 77,
+      "p10": 2.8,
+      "p90": 3.65,
+      "training_rows": 229,
+      "price_levels": 23
+    },
+    {
+      "upc": "1600066610",
+      "store": 78,
+      "p10": 2.8,
+      "p90": 3.25,
+      "training_rows": 238,
+      "price_levels": 20
+    },
+    {
+      "upc": "1600066610",
+      "store": 80,
+      "p10": 2.8,
+      "p90": 3.39,
+      "training_rows": 237,
+      "price_levels": 20
+    },
+    {
+      "upc": "1600066610",
+      "store": 81,
+      "p10": 2.9,
+      "p90": 3.79,
+      "training_rows": 216,
+      "price_levels": 32
+    },
+    {
+      "upc": "1600066610",
+      "store": 83,
+      "p10": 2.8,
+      "p90": 3.59,
+      "training_rows": 243,
+      "price_levels": 26
+    },
+    {
+      "upc": "1600066610",
+      "store": 84,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 238,
+      "price_levels": 23
+    },
+    {
+      "upc": "1600066610",
+      "store": 86,
+      "p10": 2.9,
+      "p90": 3.57,
+      "training_rows": 232,
+      "price_levels": 29
+    },
+    {
+      "upc": "1600066610",
+      "store": 88,
+      "p10": 2.9,
+      "p90": 3.29,
+      "training_rows": 227,
+      "price_levels": 22
+    },
+    {
+      "upc": "1600066610",
+      "store": 89,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 227,
+      "price_levels": 37
+    },
+    {
+      "upc": "1600066610",
+      "store": 90,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 229,
+      "price_levels": 26
+    },
+    {
+      "upc": "1600066610",
+      "store": 91,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 228,
+      "price_levels": 27
+    },
+    {
+      "upc": "1600066610",
+      "store": 92,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 230,
+      "price_levels": 25
+    },
+    {
+      "upc": "1600066610",
+      "store": 93,
+      "p10": 3.04,
+      "p90": 3.56,
+      "training_rows": 205,
+      "price_levels": 33
+    },
+    {
+      "upc": "1600066610",
+      "store": 94,
+      "p10": 2.9,
+      "p90": 3.34,
+      "training_rows": 221,
+      "price_levels": 23
+    },
+    {
+      "upc": "1600066610",
+      "store": 95,
+      "p10": 3.04,
+      "p90": 3.79,
+      "training_rows": 223,
+      "price_levels": 31
+    },
+    {
+      "upc": "1600066610",
+      "store": 97,
+      "p10": 2.9,
+      "p90": 3.39,
+      "training_rows": 204,
+      "price_levels": 22
+    },
+    {
+      "upc": "1600066610",
+      "store": 98,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 226,
+      "price_levels": 33
+    },
+    {
+      "upc": "1600066610",
+      "store": 100,
+      "p10": 2.912,
+      "p90": 3.3220000000000005,
+      "training_rows": 223,
+      "price_levels": 36
+    },
+    {
+      "upc": "1600066610",
+      "store": 101,
+      "p10": 2.9,
+      "p90": 3.59,
+      "training_rows": 243,
+      "price_levels": 34
+    },
+    {
+      "upc": "1600066610",
+      "store": 102,
+      "p10": 2.9,
+      "p90": 3.29,
+      "training_rows": 211,
+      "price_levels": 29
+    },
+    {
+      "upc": "1600066610",
+      "store": 103,
+      "p10": 2.8,
+      "p90": 3.41,
+      "training_rows": 232,
+      "price_levels": 36
+    },
+    {
+      "upc": "1600066610",
+      "store": 104,
+      "p10": 2.9,
+      "p90": 3.56,
+      "training_rows": 218,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 105,
+      "p10": 2.9,
+      "p90": 3.36,
+      "training_rows": 206,
+      "price_levels": 37
+    },
+    {
+      "upc": "1600066610",
+      "store": 106,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 222,
+      "price_levels": 26
+    },
+    {
+      "upc": "1600066610",
+      "store": 107,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 225,
+      "price_levels": 27
+    },
+    {
+      "upc": "1600066610",
+      "store": 109,
+      "p10": 2.99,
+      "p90": 3.6960000000000006,
+      "training_rows": 229,
+      "price_levels": 36
+    },
+    {
+      "upc": "1600066610",
+      "store": 110,
+      "p10": 2.9,
+      "p90": 3.34,
+      "training_rows": 216,
+      "price_levels": 26
+    },
+    {
+      "upc": "1600066610",
+      "store": 111,
+      "p10": 3.04,
+      "p90": 3.55,
+      "training_rows": 236,
+      "price_levels": 32
+    },
+    {
+      "upc": "1600066610",
+      "store": 112,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 223,
+      "price_levels": 32
+    },
+    {
+      "upc": "1600066610",
+      "store": 113,
+      "p10": 2.9,
+      "p90": 3.41,
+      "training_rows": 230,
+      "price_levels": 26
+    },
+    {
+      "upc": "1600066610",
+      "store": 114,
+      "p10": 2.9,
+      "p90": 3.29,
+      "training_rows": 227,
+      "price_levels": 28
+    },
+    {
+      "upc": "1600066610",
+      "store": 115,
+      "p10": 2.9,
+      "p90": 3.75,
+      "training_rows": 230,
+      "price_levels": 30
+    },
+    {
+      "upc": "1600066610",
+      "store": 116,
+      "p10": 2.9,
+      "p90": 3.25,
+      "training_rows": 217,
+      "price_levels": 24
+    },
+    {
+      "upc": "1600066610",
+      "store": 117,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 211,
+      "price_levels": 21
+    },
+    {
+      "upc": "1600066610",
+      "store": 118,
+      "p10": 2.9,
+      "p90": 3.55,
+      "training_rows": 238,
+      "price_levels": 30
+    },
+    {
+      "upc": "1600066610",
+      "store": 119,
+      "p10": 2.9,
+      "p90": 3.29,
+      "training_rows": 230,
+      "price_levels": 22
+    },
+    {
+      "upc": "1600066610",
+      "store": 121,
+      "p10": 2.9,
+      "p90": 3.34,
+      "training_rows": 236,
+      "price_levels": 35
+    },
+    {
+      "upc": "1600066610",
+      "store": 122,
+      "p10": 2.8,
+      "p90": 3.39,
+      "training_rows": 236,
+      "price_levels": 26
+    },
+    {
+      "upc": "1600066610",
+      "store": 123,
+      "p10": 2.9,
+      "p90": 3.39,
+      "training_rows": 231,
+      "price_levels": 38
+    },
+    {
+      "upc": "1600066610",
+      "store": 124,
+      "p10": 3.026,
+      "p90": 3.55,
+      "training_rows": 220,
+      "price_levels": 45
+    },
+    {
+      "upc": "1600066610",
+      "store": 126,
+      "p10": 2.9,
+      "p90": 3.4120000000000004,
+      "training_rows": 229,
+      "price_levels": 35
+    },
+    {
+      "upc": "1600066610",
+      "store": 128,
+      "p10": 3.01,
+      "p90": 3.65,
+      "training_rows": 232,
+      "price_levels": 44
+    },
+    {
+      "upc": "1600066610",
+      "store": 129,
+      "p10": 2.9,
+      "p90": 3.460000000000001,
+      "training_rows": 209,
+      "price_levels": 34
+    },
+    {
+      "upc": "1600066610",
+      "store": 130,
+      "p10": 3.04,
+      "p90": 3.56,
+      "training_rows": 194,
+      "price_levels": 38
+    },
+    {
+      "upc": "1600066610",
+      "store": 131,
+      "p10": 2.9,
+      "p90": 3.25,
+      "training_rows": 223,
+      "price_levels": 31
+    },
+    {
+      "upc": "1600066610",
+      "store": 132,
+      "p10": 2.9,
+      "p90": 3.25,
+      "training_rows": 237,
+      "price_levels": 31
+    },
+    {
+      "upc": "1600066610",
+      "store": 133,
+      "p10": 3.126,
+      "p90": 3.79,
+      "training_rows": 117,
+      "price_levels": 31
+    },
+    {
+      "upc": "1600066610",
+      "store": 134,
+      "p10": 2.935,
+      "p90": 3.55,
+      "training_rows": 178,
+      "price_levels": 32
+    },
+    {
+      "upc": "1600066610",
+      "store": 136,
+      "p10": 3.19,
+      "p90": 3.79,
+      "training_rows": 138,
+      "price_levels": 34
+    },
+    {
+      "upc": "1600066610",
+      "store": 137,
+      "p10": 3.125,
+      "p90": 3.5740000000000007,
+      "training_rows": 188,
+      "price_levels": 39
+    },
+    {
+      "upc": "1600066610",
+      "store": 139,
+      "p10": 3.22,
+      "p90": 3.79,
+      "training_rows": 93,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 2,
+      "p10": 2.04,
+      "p90": 2.49,
+      "training_rows": 221,
+      "price_levels": 32
+    },
+    {
+      "upc": "3800000120",
+      "store": 5,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 235,
+      "price_levels": 28
+    },
+    {
+      "upc": "3800000120",
+      "store": 8,
+      "p10": 1.9,
+      "p90": 2.55,
+      "training_rows": 227,
+      "price_levels": 34
+    },
+    {
+      "upc": "3800000120",
+      "store": 9,
+      "p10": 1.9,
+      "p90": 2.48,
+      "training_rows": 229,
+      "price_levels": 28
+    },
+    {
+      "upc": "3800000120",
+      "store": 12,
+      "p10": 2.06,
+      "p90": 2.48,
+      "training_rows": 222,
+      "price_levels": 28
+    },
+    {
+      "upc": "3800000120",
+      "store": 14,
+      "p10": 2.06,
+      "p90": 2.48,
+      "training_rows": 223,
+      "price_levels": 21
+    },
+    {
+      "upc": "3800000120",
+      "store": 18,
+      "p10": 1.9,
+      "p90": 2.4290000000000016,
+      "training_rows": 218,
+      "price_levels": 25
+    },
+    {
+      "upc": "3800000120",
+      "store": 21,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 232,
+      "price_levels": 25
+    },
+    {
+      "upc": "3800000120",
+      "store": 28,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 229,
+      "price_levels": 23
+    },
+    {
+      "upc": "3800000120",
+      "store": 32,
+      "p10": 1.99,
+      "p90": 2.48,
+      "training_rows": 222,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 33,
+      "p10": 2.04,
+      "p90": 2.49,
+      "training_rows": 218,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 40,
+      "p10": 1.89,
+      "p90": 2.4260000000000033,
+      "training_rows": 219,
+      "price_levels": 32
+    },
+    {
+      "upc": "3800000120",
+      "store": 44,
+      "p10": 1.9,
+      "p90": 2.4300000000000033,
+      "training_rows": 219,
+      "price_levels": 33
+    },
+    {
+      "upc": "3800000120",
+      "store": 45,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 243,
+      "price_levels": 24
+    },
+    {
+      "upc": "3800000120",
+      "store": 47,
+      "p10": 1.96,
+      "p90": 2.59,
+      "training_rows": 211,
+      "price_levels": 21
+    },
+    {
+      "upc": "3800000120",
+      "store": 48,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 224,
+      "price_levels": 24
+    },
+    {
+      "upc": "3800000120",
+      "store": 49,
+      "p10": 1.9,
+      "p90": 2.55,
+      "training_rows": 222,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 50,
+      "p10": 1.9,
+      "p90": 2.25,
+      "training_rows": 191,
+      "price_levels": 15
+    },
+    {
+      "upc": "3800000120",
+      "store": 51,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 213,
+      "price_levels": 24
+    },
+    {
+      "upc": "3800000120",
+      "store": 52,
+      "p10": 2.06,
+      "p90": 2.48,
+      "training_rows": 221,
+      "price_levels": 25
+    },
+    {
+      "upc": "3800000120",
+      "store": 53,
+      "p10": 2.06,
+      "p90": 2.48,
+      "training_rows": 238,
+      "price_levels": 25
+    },
+    {
+      "upc": "3800000120",
+      "store": 54,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 240,
+      "price_levels": 31
+    },
+    {
+      "upc": "3800000120",
+      "store": 56,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 232,
+      "price_levels": 22
+    },
+    {
+      "upc": "3800000120",
+      "store": 59,
+      "p10": 1.9,
+      "p90": 2.29,
+      "training_rows": 230,
+      "price_levels": 30
+    },
+    {
+      "upc": "3800000120",
+      "store": 62,
+      "p10": 2.06,
+      "p90": 2.48,
+      "training_rows": 238,
+      "price_levels": 26
+    },
+    {
+      "upc": "3800000120",
+      "store": 64,
+      "p10": 1.96,
+      "p90": 2.4699999999999998,
+      "training_rows": 216,
+      "price_levels": 30
+    },
+    {
+      "upc": "3800000120",
+      "store": 67,
+      "p10": 1.96,
+      "p90": 2.4500000000000024,
+      "training_rows": 218,
+      "price_levels": 26
+    },
+    {
+      "upc": "3800000120",
+      "store": 68,
+      "p10": 2.06,
+      "p90": 2.49,
+      "training_rows": 222,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 70,
+      "p10": 1.89,
+      "p90": 2.45,
+      "training_rows": 220,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 71,
+      "p10": 2.015,
+      "p90": 2.49,
+      "training_rows": 226,
+      "price_levels": 31
+    },
+    {
+      "upc": "3800000120",
+      "store": 72,
+      "p10": 2.06,
+      "p90": 2.48,
+      "training_rows": 238,
+      "price_levels": 23
+    },
+    {
+      "upc": "3800000120",
+      "store": 73,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 233,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 74,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 223,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 75,
+      "p10": 2.06,
+      "p90": 2.48,
+      "training_rows": 231,
+      "price_levels": 33
+    },
+    {
+      "upc": "3800000120",
+      "store": 76,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 242,
+      "price_levels": 23
+    },
+    {
+      "upc": "3800000120",
+      "store": 77,
+      "p10": 1.9,
+      "p90": 2.35,
+      "training_rows": 228,
+      "price_levels": 23
+    },
+    {
+      "upc": "3800000120",
+      "store": 78,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 238,
+      "price_levels": 22
+    },
+    {
+      "upc": "3800000120",
+      "store": 80,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 237,
+      "price_levels": 22
+    },
+    {
+      "upc": "3800000120",
+      "store": 81,
+      "p10": 1.9,
+      "p90": 2.55,
+      "training_rows": 221,
+      "price_levels": 30
+    },
+    {
+      "upc": "3800000120",
+      "store": 83,
+      "p10": 1.9,
+      "p90": 2.29,
+      "training_rows": 243,
+      "price_levels": 19
+    },
+    {
+      "upc": "3800000120",
+      "store": 84,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 238,
+      "price_levels": 23
+    },
+    {
+      "upc": "3800000120",
+      "store": 86,
+      "p10": 1.9,
+      "p90": 2.55,
+      "training_rows": 232,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 88,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 227,
+      "price_levels": 22
+    },
+    {
+      "upc": "3800000120",
+      "store": 89,
+      "p10": 1.9,
+      "p90": 2.55,
+      "training_rows": 227,
+      "price_levels": 35
+    },
+    {
+      "upc": "3800000120",
+      "store": 90,
+      "p10": 1.9,
+      "p90": 2.48,
+      "training_rows": 229,
+      "price_levels": 26
+    },
+    {
+      "upc": "3800000120",
+      "store": 91,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 235,
+      "price_levels": 24
+    },
+    {
+      "upc": "3800000120",
+      "store": 92,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 230,
+      "price_levels": 26
+    },
+    {
+      "upc": "3800000120",
+      "store": 93,
+      "p10": 2.06,
+      "p90": 2.4819999999999998,
+      "training_rows": 210,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 94,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 221,
+      "price_levels": 28
+    },
+    {
+      "upc": "3800000120",
+      "store": 95,
+      "p10": 2.06,
+      "p90": 2.55,
+      "training_rows": 228,
+      "price_levels": 26
+    },
+    {
+      "upc": "3800000120",
+      "store": 97,
+      "p10": 1.8780000000000001,
+      "p90": 2.25,
+      "training_rows": 205,
+      "price_levels": 21
+    },
+    {
+      "upc": "3800000120",
+      "store": 98,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 226,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 100,
+      "p10": 2.04,
+      "p90": 2.48,
+      "training_rows": 223,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 101,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 243,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 102,
+      "p10": 1.9,
+      "p90": 2.59,
+      "training_rows": 211,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 103,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 232,
+      "price_levels": 34
+    },
+    {
+      "upc": "3800000120",
+      "store": 104,
+      "p10": 1.89,
+      "p90": 2.4990000000000014,
+      "training_rows": 218,
+      "price_levels": 26
+    },
+    {
+      "upc": "3800000120",
+      "store": 105,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 230,
+      "price_levels": 32
+    },
+    {
+      "upc": "3800000120",
+      "store": 106,
+      "p10": 1.89,
+      "p90": 2.39,
+      "training_rows": 222,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 107,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 225,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 109,
+      "p10": 2.06,
+      "p90": 2.55,
+      "training_rows": 234,
+      "price_levels": 27
+    },
+    {
+      "upc": "3800000120",
+      "store": 110,
+      "p10": 1.9,
+      "p90": 2.475,
+      "training_rows": 216,
+      "price_levels": 23
+    },
+    {
+      "upc": "3800000120",
+      "store": 111,
+      "p10": 1.96,
+      "p90": 2.48,
+      "training_rows": 243,
+      "price_levels": 36
+    },
+    {
+      "upc": "3800000120",
+      "store": 112,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 228,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 113,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 230,
+      "price_levels": 31
+    },
+    {
+      "upc": "3800000120",
+      "store": 114,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 227,
+      "price_levels": 31
+    },
+    {
+      "upc": "3800000120",
+      "store": 115,
+      "p10": 1.9,
+      "p90": 2.55,
+      "training_rows": 230,
+      "price_levels": 33
+    },
+    {
+      "upc": "3800000120",
+      "store": 116,
+      "p10": 1.9,
+      "p90": 2.470000000000001,
+      "training_rows": 217,
+      "price_levels": 21
+    },
+    {
+      "upc": "3800000120",
+      "store": 117,
+      "p10": 1.9,
+      "p90": 2.55,
+      "training_rows": 211,
+      "price_levels": 24
+    },
+    {
+      "upc": "3800000120",
+      "store": 118,
+      "p10": 1.9,
+      "p90": 2.48,
+      "training_rows": 233,
+      "price_levels": 29
+    },
+    {
+      "upc": "3800000120",
+      "store": 119,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 225,
+      "price_levels": 23
+    },
+    {
+      "upc": "3800000120",
+      "store": 121,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 236,
+      "price_levels": 31
+    },
+    {
+      "upc": "3800000120",
+      "store": 122,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 231,
+      "price_levels": 31
+    },
+    {
+      "upc": "3800000120",
+      "store": 123,
+      "p10": 1.9,
+      "p90": 2.48,
+      "training_rows": 227,
+      "price_levels": 34
+    },
+    {
+      "upc": "3800000120",
+      "store": 124,
+      "p10": 2.014,
+      "p90": 2.48,
+      "training_rows": 225,
+      "price_levels": 34
+    },
+    {
+      "upc": "3800000120",
+      "store": 126,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 226,
+      "price_levels": 32
+    },
+    {
+      "upc": "3800000120",
+      "store": 128,
+      "p10": 1.993,
+      "p90": 2.49,
+      "training_rows": 232,
+      "price_levels": 35
+    },
+    {
+      "upc": "3800000120",
+      "store": 129,
+      "p10": 1.78,
+      "p90": 2.39,
+      "training_rows": 209,
+      "price_levels": 40
+    },
+    {
+      "upc": "3800000120",
+      "store": 130,
+      "p10": 1.96,
+      "p90": 2.5360000000000014,
+      "training_rows": 194,
+      "price_levels": 36
+    },
+    {
+      "upc": "3800000120",
+      "store": 131,
+      "p10": 1.89,
+      "p90": 2.39,
+      "training_rows": 226,
+      "price_levels": 35
+    },
+    {
+      "upc": "3800000120",
+      "store": 132,
+      "p10": 1.9,
+      "p90": 2.39,
+      "training_rows": 233,
+      "price_levels": 32
+    },
+    {
+      "upc": "3800000120",
+      "store": 133,
+      "p10": 2.05,
+      "p90": 2.84,
+      "training_rows": 117,
+      "price_levels": 28
+    },
+    {
+      "upc": "3800000120",
+      "store": 134,
+      "p10": 1.89,
+      "p90": 2.728000000000002,
+      "training_rows": 178,
+      "price_levels": 34
+    },
+    {
+      "upc": "3800000120",
+      "store": 136,
+      "p10": 2.03,
+      "p90": 2.84,
+      "training_rows": 138,
+      "price_levels": 30
+    },
+    {
+      "upc": "3800000120",
+      "store": 137,
+      "p10": 2.06,
+      "p90": 2.6320000000000014,
+      "training_rows": 188,
+      "price_levels": 40
+    },
+    {
+      "upc": "3800000120",
+      "store": 139,
+      "p10": 2.142,
+      "p90": 2.84,
+      "training_rows": 93,
+      "price_levels": 22
+    }
+  ],
+  "validation": {
+    "bounded_rows": 2583,
+    "bounded_coverage_pct": 34.09,
+    "bounded_hybrid_mae": 10.21,
+    "onnx_parity_max_abs_difference": 9.429257397641777e-05
+  },
+  "limitations": [
+    "Historical observational pricing data",
+    "Positive-price, positive-sales training subset",
+    "Elasticities are not causal estimates",
+    "Unmarked promotion does not prove no promotion",
+    "Pricing scenarios require validation guardrails"
+  ]
+}

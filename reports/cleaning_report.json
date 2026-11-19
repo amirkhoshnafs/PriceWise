@@ -1,0 +1,16 @@
+{
+  "raw_rows": 6602582,
+  "clean_rows": 4707776,
+  "retained_pct": 71.3,
+  "excluded_by_stage": {
+    "invalid_keys": 0,
+    "suspect_ok": 141285,
+    "missing_or_nonfinite_numbers": 0,
+    "nonpositive_price": 1753521,
+    "invalid_units": 0,
+    "invalid_bundle": 0,
+    "margin_above_100": 0
+  },
+  "output": "data/processed/cereal_priced.parquet",
+  "note": "Positive-price, positive-sales subset. Zero-demand weeks are not modeled. Unit cost is derived from historical AAC margin, not replacement cost."
+}
